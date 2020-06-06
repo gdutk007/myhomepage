@@ -1,4 +1,5 @@
 import React from 'react'
+import "../CSS/navbar.css"
 
 function MyNavbar(){
     const myStyles = {
@@ -7,17 +8,19 @@ function MyNavbar(){
     }
     return(
         <div>
-            <nav>
-                <ul>
-                    <li> About Me</li>
-                </ul>
-                <ul>
-                    <li> Projects </li>
-                </ul>
-                <ul>
-                    <li> Contact </li>
-                </ul>
-            </nav>
+            <header>
+                <div>
+                    <li className="left-navbar-list-item" ><a href="#home">Gianfranco Dutka</a></li>
+                </div>
+                 <nav>            
+                    <ul className="navbar-unordered-list">
+                        <li className="navbar-list-item" ><a href="#home">Home</a></li>
+                        <li className="navbar-list-item" ><a href="#news">News</a></li>
+                        <li className="navbar-list-item" ><a href="#contact">Contact</a></li>
+                        <li className="navbar-list-item" ><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+            </header>
         </div>
     )
 }

@@ -1,0 +1,15 @@
+.navbar-unordered-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 100;
+    text-align: right;  
+}
+
+.navbar-list-item{
+    display: inline;
+}
+
+.left-navbar-list-item{
+    list-style-type: none;
+    display: inline;
+}
