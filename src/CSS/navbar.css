@@ -1,15 +1,45 @@
-.navbar-unordered-list {
+
+.mr-auto-1{
     list-style-type: none;
     margin: 0;
     padding: 100;
-    text-align: right;  
+    text-align: left;      
 }
 
-.navbar-list-item{
-    display: inline;
-}
-
-.left-navbar-list-item{
+.mr-auto{
     list-style-type: none;
-    display: inline;
+    margin: 0;
+    padding: 100;
+    text-align: right;      
 }
+
+.left-navbar-link{
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.left-navbar-link.active{
+    color: white;
+    background-color: #4CAF50;
+}
+
+.left-navbar-link:hover:not(.active){
+    background-color: #ddd;
+}
+
+.navbar-links{
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-links.active{
+    color: white;
+    background-color: #4CAF50;
+}
+
+.navbar-links:hover:not(.active) {
+    background-color: #ddd;
+}
+
