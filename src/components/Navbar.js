@@ -1,27 +1,8 @@
 import React from 'react'
-import {useEffect, useState, useRef} from 'react'
 import "../CSS/navbar.css"
 
 function MyNavbar(){
-    // const [isSticky, setSticky] = useState(false);
-    // useEffect(()=>{
-    //     const header = document.getElementById("mynavbar");
-    //     const sticky = header.offsetTop;
-    //     const scrollCallBack = window.addEventListener("scroll",()=>{    
-    //         if(window.pageYOffset > sticky){
-    //             //header.classList.add("sticky");
-    //             setSticky(true);
-    //             console.log("sticky is true");
-    //         }else{
-    //             //header.classList.remove("sticky");
-    //             setSticky(false);
-    //             console.log("sticky is true");
-    //         }
-    //     });
-    //     return ()=> {
-    //         window.removeEventListener("scroll",scrollCallBack)
-    //     };
-    // },[])
+
     return(
         <div>
             <header>
