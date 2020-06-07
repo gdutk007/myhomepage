@@ -1,16 +1,17 @@
-.header-navbar{
-    position: absolute;
+.sticky {
+    overflow: hidden;
+    position: fixed;
     top: 0;
     width: 100%;
-}
-
+  }
+  
 .top-header-nav-ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: white;
+    background-color: black;
 }
 
 .top-left-header-nav-li{
@@ -22,7 +23,7 @@
 
 .top-left-header-nav-li a{
     display: block;
-    color: #666;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,7 +31,7 @@
 
 .top-right-header-nav-li a{
     display: block;
-    color: #666;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
