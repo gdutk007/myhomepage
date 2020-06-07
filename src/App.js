@@ -8,12 +8,14 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <header className="App-header">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome to my Page!
         </p>
-        <br/>
-        <br/>
         <br/>
         <br/>
         <br/>
